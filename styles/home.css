@@ -1,0 +1,82 @@
+
+.top-layout {
+    background-color: #285FFA;
+    color: white;
+    padding: 10px;
+    min-height: 250px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.profile-section .icon {
+    font-size: 20px;
+}
+
+.profile-name {
+    flex-grow: 1;
+    text-align: center;
+    text-align: left;
+}
+
+.profile-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings-icon {
+    margin-left: auto;
+}
+.balance-section {
+    text-align: center;
+    min-height: 200px;
+    border-radius: 16px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: linear-gradient(to top right, rgba(13, 40, 117, 0.5), rgba(26, 84, 246, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main{
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.balance {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.action {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Sora", sans-serif;
+}
+
+.small-icon {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto 5px;
+}
