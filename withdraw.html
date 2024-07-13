@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Withraw Funds</title>
+    <!-- links -->
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 
@@ -15,8 +16,62 @@
             <p>Withraw to Bank Account</p>
         </div>
 
+        <a href="">
+            History
+        </a>
     </nav>
 
+    <main class="withdraw">
+        <div class="card first">
+            <img src="./assets/icons/sendIcon.png" alt="">
+            <p>
+                Free transfer for the day: <strong>3</strong>
+            </p>
+        </div>
+
+        <div class="card transfer">
+            <p>Recipient Account</p>
+            <form action="">
+                <input type="text" placeholder="Enter 10 digit Account Number">
+
+                <button>
+                    <p>
+                        Select Bank
+                    </p>
+
+                    <img src="./assets/icons/nextIcon.png" alt="">
+                </button>
+            </form>
+        </div>
+
+        <div class="card realtime">
+            <div style="display: flex; align-items: center;">
+                <img src="./assets/images/wifi.png" alt="real time" class="wifi">
+                <p>Real-time Bank Network Monitor</p>
+            </div>
+
+            <img src="./assets/icons/nextIcon.png" alt="" class="icon">
+        </div>
+
+        <div class="card tab">
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'Tab1')">Recents</button>
+                <button class="tab-link" onclick="openTab(event, 'Tab2')">Favourites</button>
+            </div>
+
+            <div id="Tab1" class="tab-content" style="display: block;">
+                <div class="recent" id="recent">
+                    <!-- data js -->
+                </div>
+                
+            </div>
+            <div id="Tab2" class="tab-content">
+            </div>
+        </div>
+
+        <script src="functions/script.js"></script>
+        <script src="functions/data.js"></script>
+    </main>
 </body>
 
 </html>
