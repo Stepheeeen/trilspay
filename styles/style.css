@@ -345,6 +345,49 @@ span{
 .more .subChild .child p{
     margin-left: 10px;
 }
-.more .subChild .icon{
+.more .subChild .icon,
+.profile .modify .subChild .icon{
     height: 18px;
+}
+
+/* profile page styling */
+.profile{
+    padding: 10px;
+}
+.profile .user{
+    height: 40%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.profile .user img{
+    height: 200px;
+    margin-bottom: 7px;
+}
+.profile .modify{
+    margin-top: 50px;
+}
+.profile .modify .subChild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid#979797;
+}
+.profile .modify .subChild .child{
+    display: flex;
+    align-items: center;
+}
+.profile .modify .subChild .child p{
+    font-size: 18px;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.profile .modify .subChild .child img{
+    height: 45px;
+    margin-right: 15px;
+}
+.profile .modify .subChild a{
+    text-decoration: none;
+    color: #285FFA;
 }
