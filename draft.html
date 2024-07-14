@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Styling</title>
+    <style>
+        .transaction {
+            background-color: #f0f0f0; /* Light gray background */
+            border: 1px solid #ccc;    /* Light gray border */
+            padding: 10px;             /* Some padding */
+            margin: 5px 0;             /* Some margin */
+            border-radius: 5px;        /* Rounded corners */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+    </style>
+</head>
+<body>
+    <div id="history"></div>
+    <script>
+        const transaction = [{}];
+
+        const history = document.getElementById('history');
+
+        transaction.forEach(his => {
+            const subChild = document.createElement('div');  // Declare subChild first
+            subChild.className = 'transaction';
+            subChild.id = 'modalBtn';
+            subChild.textContent = 'testing testing';
+            
+            history.appendChild(subChild);  // Append subChild after it's created
+        });
+    </script>
+</body>
+</html>

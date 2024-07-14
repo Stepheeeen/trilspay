@@ -352,7 +352,7 @@ span{
 
 /* profile page styling */
 .profile{
-    padding: 10px;
+    padding: 15px;
 }
 .profile .user{
     height: 40%;
@@ -371,7 +371,7 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 0;
     border-bottom: 1px solid#979797;
 }
 .profile .modify .subChild .child{
@@ -379,7 +379,7 @@ span{
     align-items: center;
 }
 .profile .modify .subChild .child p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 7px;
     font-weight: 500;
 }
@@ -390,4 +390,42 @@ span{
 .profile .modify .subChild a{
     text-decoration: none;
     color: #285FFA;
+}
+
+/* transactions page styling*/
+.history {
+    padding-bottom: 50px;
+}
+.history .container{
+    padding: 15px;
+}
+.history .container .transaction{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding:10px 0;
+}
+.history .container .transaction .child{
+        display: flex;
+        align-items: center
+}
+
+.history .container .transaction .child img{
+        height: 50px;
+}
+
+.history .container .transaction .child .detail{
+        margin-left: 10px;
+}
+.history .container .transaction .debit {
+        color: #FF5353;
+}
+.history .container .transaction .credit {
+        color: #289B4F;
+}
+.history .container .transaction p{
+        font-size: 17px;
 }
