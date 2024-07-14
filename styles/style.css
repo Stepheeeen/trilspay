@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     font-family: Arial, sans-serif;
     padding: 0;
 }
-body{
+
+body {
     padding: 10px 0;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -27,11 +28,12 @@ body{
     height: 15px;
 }
 
-.navbar p{
+.navbar p {
     margin-left: 1rem;
     font-size: 1rem;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: #285FFA;
     margin-right: 20px;
@@ -54,7 +56,7 @@ body{
     color: black;
     padding: 10px;
     cursor: pointer;
-    
+
 }
 
 .nav-icon.active {
@@ -62,14 +64,14 @@ body{
 }
 
 /* card component */
-.card{
+.card {
     background-color: #fff;
     width: 90%;
     border-radius: 13px;
     padding: 15px;
 }
 
-span{
+span {
     color: #777777;
     font-size: 14px;
 }
@@ -88,17 +90,18 @@ span{
 
 /* add funds page */
 .add-funds,
-.withdraw{
+.withdraw {
     background-color: #EFEFEF;
     display: grid;
     place-items: center;
     padding: 20px 7px;
 }
-.add-funds .card p{
+
+.add-funds .card p {
     margin-bottom: 7px;
 }
 
-.add-funds h3{
+.add-funds h3 {
     font-weight: 500;
     margin-top: 5px;
 }
@@ -107,17 +110,18 @@ span{
     margin-top: 5px;
 }
 
-.dashed-line{
+.dashed-line {
     border-bottom: 2px dashed #D9D9D9;
     margin-top: 15px;
 }
-.add-funds .circle img{
+
+.add-funds .circle img {
     height: 30px;
     width: 30px;
 }
 
 .add-funds .child,
-.add-funds .parent{
+.add-funds .parent {
     display: flex;
     padding: 15px 6px;
     padding-bottom: 5px;
@@ -129,14 +133,15 @@ span{
     margin-left: 20px;
 }
 
-.add-funds .container{
+.add-funds .container {
     display: flex;
     align-items: center;
     padding: 20px 10px;
     padding-bottom: 5px;
     justify-content: space-between;
 }
-.add-funds .container button{
+
+.add-funds .container button {
     outline: none;
     border: none;
     width: 49%;
@@ -144,34 +149,40 @@ span{
     height: 45px;
     font-size: 16px;
 }
-.add-funds .container button:first-child{
+
+.add-funds .container button:first-child {
     background-color: #285FFA33;
     color: #285FFA;
 }
-.add-funds .container button:last-child{
+
+.add-funds .container button:last-child {
     background-color: #285FFA;
     color: #fff;
 }
 
-.add-funds .parent{
+.add-funds .parent {
     width: 100%;
     /* margin-right: -13px; */
     justify-content: space-between;
     flex-direction: column;
 }
-.add-funds .parent .card{
+
+.add-funds .parent .card {
     margin-bottom: 15px;
 }
-.add-funds .parent .card .child{
+
+.add-funds .parent .card .child {
     justify-content: space-between;
 }
 
-.add-funds .parent .card .icon{
+.add-funds .parent .card .icon {
     height: 20px;
 }
+
 .add-funds .parent .card {
     cursor: pointer;
 }
+
 .add-funds .parent .card .subChild {
     display: flex;
     align-items: center;
@@ -184,12 +195,12 @@ span{
     margin-top: 15px;
 }
 
-.add-funds .middle p{
+.add-funds .middle p {
     margin: 0 10px;
     color: #979797;
 }
 
-.add-funds .middle .line{
+.add-funds .middle .line {
     border-bottom: 1px solid#979797;
     width: 100px;
 
@@ -201,48 +212,52 @@ span{
 .withdraw .card {
     margin-top: 25px;
 }
+
 .withdraw .first {
     background-color: #285FFA1A;
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
-.withdraw .first img{
+
+.withdraw .first img {
     height: 28px;
 }
 
-.withdraw .first p{
+.withdraw .first p {
     color: #285FFA;
     font-weight: 500;
     margin-left: 10px;
     font-size: 17px;
 }
 
-.withdraw .first p strong{
+.withdraw .first p strong {
     font-size: 19px;
 }
 
-.withdraw .realtime{
+.withdraw .realtime {
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
-.withdraw .realtime .wifi{
+
+.withdraw .realtime .wifi {
     height: 40px;
     margin-right: 15px;
 }
-.withdraw .realtime img{
+
+.withdraw .realtime img {
     height: 15px;
 }
 
-.withdraw .transfer form{
+.withdraw .transfer form {
     display: grid;
     place-items: start;
 }
 
 .withdraw .transfer form input,
-.withdraw .transfer form button{
+.withdraw .transfer form button {
     display: flex;
     font-size: 17px;
     width: 98%;
@@ -257,31 +272,33 @@ span{
     align-items: center;
     justify-content: space-between;
 }
-.withdraw .transfer p{
+
+.withdraw .transfer p {
     font-size: 18px;
     font-weight: 500;
 }
 
-.withdraw .transfer form input::placeholder{
+.withdraw .transfer form input::placeholder {
     Color: #979797;
 }
 
-.withdraw .transfer form input{
+.withdraw .transfer form input {
     width: 96.5%;
 }
 
-.withdraw .transfer form button{
+.withdraw .transfer form button {
     color: #979797;
     cursor: pointer;
 }
 
-.withdraw .transfer form button img{
+.withdraw .transfer form button img {
     height: 18px;
 }
 
-.withdraw .tab .tabs{
+.withdraw .tab .tabs {
     display: flex;
 }
+
 .withdraw .tab .tab-link {
     background: none;
     border: none;
@@ -295,36 +312,42 @@ span{
     border-bottom: 2px solid #007bff;
     color: #007bff;
 }
-.withdraw .tab .tab-content{
+
+.withdraw .tab .tab-content {
     padding: 10px;
 }
-.withdraw .tab .tab-content .recent .circle img{
+
+.withdraw .tab .tab-content .recent .circle img {
     height: 30px;
 }
-.withdraw .tab .tab-content .recent{
+
+.withdraw .tab .tab-content .recent {
     text-transform: uppercase;
     width: 100%;
     margin-top: 20px;
     max-height: 220px;
     overflow: scroll;
 }
-.withdraw .tab .tab-content .recent .info{
+
+.withdraw .tab .tab-content .recent .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 }
-.withdraw .tab .tab-content .recent .info span:last-child{
+
+.withdraw .tab .tab-content .recent .info span:last-child {
     margin-left: 5px;
 }
 
 /* more page styling */
 
-.more{
+.more {
     width: 100%;
     padding-bottom: 50px;
 }
-.more .subChild{
+
+.more .subChild {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,59 +358,71 @@ span{
     font-weight: 500;
     border-bottom: 1px solid#979797;
 }
-.more .subChild .child{
+
+.more .subChild .child {
     display: flex;
     align-items: center;
 }
-.more .subChild .child img{
+
+.more .subChild .child img {
     height: 45px;
 }
-.more .subChild .child p{
+
+.more .subChild .child p {
     margin-left: 10px;
 }
+
 .more .subChild .icon,
-.profile .modify .subChild .icon{
+.profile .modify .subChild .icon {
     height: 18px;
 }
 
 /* profile page styling */
-.profile{
+.profile {
     padding: 15px;
 }
-.profile .user{
+
+.profile .user {
     height: 40%;
     width: 100%;
     display: grid;
     place-items: center;
 }
-.profile .user img{
+
+.profile .user img {
     height: 200px;
     margin-bottom: 7px;
 }
-.profile .modify{
+
+.profile .modify {
     margin-top: 50px;
 }
-.profile .modify .subChild{
+
+.profile .modify .subChild {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
     border-bottom: 1px solid#979797;
 }
-.profile .modify .subChild .child{
+
+.profile .modify .subChild .child {
     display: flex;
     align-items: center;
 }
-.profile .modify .subChild .child p{
+
+.profile .modify .subChild .child p {
     font-size: 16px;
     margin-top: 7px;
     font-weight: 500;
 }
-.profile .modify .subChild .child img{
+
+.profile .modify .subChild .child img {
     height: 45px;
     margin-right: 15px;
 }
-.profile .modify .subChild a{
+
+.profile .modify .subChild a {
     text-decoration: none;
     color: #285FFA;
 }
@@ -395,37 +430,136 @@ span{
 /* transactions page styling*/
 .history {
     padding-bottom: 50px;
+    position: relative;
 }
-.history .container{
+
+.history .container {
     padding: 15px;
+    margin-top: -45px;
 }
-.history .container .transaction{
+
+.history .container .transaction {
     width: 100%;
     height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    padding:10px 0;
-}
-.history .container .transaction .child{
-        display: flex;
-        align-items: center
+    padding: 10px 0;
 }
 
-.history .container .transaction .child img{
-        height: 50px;
+.history .container .transaction .child {
+    display: flex;
+    align-items: center
 }
 
-.history .container .transaction .child .detail{
-        margin-left: 10px;
+.history .container .transaction .child img {
+    height: 50px;
 }
+
+.history .container .transaction .child .detail {
+    margin-left: 10px;
+}
+
 .history .container .transaction .debit {
-        color: #FF5353;
+    color: #FF5353;
 }
+
 .history .container .transaction .credit {
-        color: #289B4F;
+    color: #289B4F;
 }
-.history .container .transaction p{
-        font-size: 17px;
+
+.history .container .transaction p {
+    font-size: 17px;
+}
+
+.history nav {
+    margin-bottom: 10px;
+}
+
+.history nav .search-container {
+    width: 70%;
+    border: 1px solid #777777;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.history nav .search-container .search-input {
+    border: none;
+    margin-left: 10px;
+    width: 80%;
+    height: inherit;
+    padding: auto;
+    font-size: 16px;
+    outline: none;
+}
+
+.history nav button {
+    width: 30%;
+    margin-left: 10px;
+    border: 1px solid #777777;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 7px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.history nav button img {
+    margin-right: 5px;
+}
+
+.header {
+    padding: 0 18px;
+    margin-bottom: -5px;
+}
+
+
+/* modal styling */
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+    height: 400px;
+    overflow: scroll;
+    background-color: #fff;
+    padding-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.modal header{
+    padding:20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.modal header span{
+    text-transform: uppercase;
+}
+.close{
+    color:#1D62CA;
+    font-size: 17px;
+    margin-top: 7px;
+}
+.modal-container .modal .modal-body{
+    padding:0 10px;
+}
+.modal-container .modal .modal-body .card{
+    padding: 20px 15px;
 }

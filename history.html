@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +11,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <main class="history">
-            <nav>
-             <div class="search-container">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" class="search-input" placeholder="Search...">
+    <div class="modal-container" id="receipt">
+        <div class="modal">
+            <header>
+                <div>
+                    <h2 id="service"></h2>
+                    <span id="product"></span>
                 </div>
-                
-             <button>Filter</button>
-            </nav>
-       
-            
-            
-        <div class="container" id="history">
-            
+
+                <p id="closeBtn" class="close">
+                    Done
+                </p>
+            </header>
+
+            <div class="modal-body">
+                <div class="card" id="receiptModal" style="display: grid; place-content: center;">
+                    <h1 id="receiptAmount"></h1>
+                </div>
+                <div class="card" style="border: 1px solid #7777; margin: 13px 0;">
+                    <p id="receiptDate" style="font-size: 17px;"></p>
+                    <p id="receiptTime" style="margin-top: 7px; font-size: 17px;"></p>
+                </div>
+                <div class="card" id="receiptId" style="display: flex; justify-content: space-between; align-items: center; border: 1px solid #7777;">
+                    <div>
+                        <span>Transaction no.</span>
+                        <p style="margin-top: 7px; font-size: 17px;">
+                            16828763873748748836
+                        </p>
+                    </div>
+
+                    <img src="./assets/icons/copyIcon.png" alt="" style="height: 25px; ">
+                </div>
+            </div>
+
+            <div class="modal-footer" style="color: #FF5353; font-size: 19px; padding:10px 20px; display: flex; align-items: center; margin-top: 10px;">
+                <img src="./assets/icons/flagIcon.png" alt="" style="height: 25px; margin-right: 10px;">
+                Report a problem
+            </div>
         </div>
+    </div>
+    <main class="history">
+        <div class="header">
+            <h1>History</h1>
+        </div>
+        <nav class="navbar">
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" placeholder="Search...">
+            </div>
+
+            <button>
+                <img src="./assets/icons/filterIcon.png" alt="">
+                Filter
+            </button>
+        </nav>
+
+        <div class="container" id="history">
+
+        </div>
+
+        
+
         <div class="bottom-nav">
             <i class="fas fa-home nav-icon" id="home-icon"></i>
             <i class="fas fa-gift nav-icon" id="gift-icon"></i>
@@ -33,7 +81,8 @@
             <i class="fas fa-exchange-alt nav-icon" id="transfer-icon"></i>
         </div>
     </main>
-    
+
     <script src="./functions/history.js"></script>
 </body>
+
 </html>
