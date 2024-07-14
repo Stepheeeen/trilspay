@@ -98,9 +98,9 @@ span{
     margin-bottom: 7px;
 }
 
-.add-funds h2{
+.add-funds h3{
     font-weight: 500;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 
 .add-funds h1 {
@@ -154,8 +154,8 @@ span{
 }
 
 .add-funds .parent{
-    width: 95%;
-    margin-right: -13px;
+    width: 100%;
+    /* margin-right: -13px; */
     justify-content: space-between;
     flex-direction: column;
 }
