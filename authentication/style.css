@@ -6,6 +6,7 @@
 
 body {
     padding: 10px 0;
+    width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -19,7 +20,7 @@ a,
     color: #285FFA;
 }
 main{
-    height: 100vh;
+    /* height: 100vh; */
     background: #F7F4FF;
 }
 .navbar {
@@ -58,6 +59,7 @@ main{
     height: 260px;
     background: #fff;
     padding: 18px;
+    width: 90%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -82,6 +84,7 @@ button{
     border-radius: 5px;
     background-color: #285FFA;
     color: #fff;
+    border: none;
 }
 label{
     font-size: 17px;
@@ -97,6 +100,9 @@ label{
 /* styling the password  */
 .password input{
     width: 100%;
+}
+.password .card{
+    width: 95%;
 }
 .password .card{
     padding: 0;
