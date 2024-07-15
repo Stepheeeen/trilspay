@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+body {
+    padding: 10px 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* general authentication styling */
+a,
+.a{
+    text-decoration: none;
+    color: #285FFA;
+}
+main{
+    height: 100vh;
+    background: #F7F4FF;
+}
+.navbar {
+    height: 7vh;
+    width: 100%;
+    padding: 15px 5px;
+    /* padding:0 5px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    font-size: 18px;
+    color: #000;
+    margin-left: 10px;
+}
+.navbar h1{
+    font-size: 30px;
+    color: #285FFA;
+    margin-left: -55px;
+}
+.navbar img{
+    height: 15px;
+}
+.container {
+    height: 44vh;
+    display: grid;
+    padding: 15px;
+    place-content: center;
+}
+.container img{
+    height: 240px;
+    margin-right: 20px;
+}
+.form{
+    height: 260px;
+    background: #fff;
+    padding: 18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 94%;
+    height: 27px;
+    outline: none;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+button{
+    outline: none;
+    width: 100%;
+    padding: 13px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #285FFA;
+    color: #fff;
+}
+label{
+    font-size: 17px;
+}
+.form form{
+    margin-top: 20px;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+/* styling the password  */
+.password input{
+    width: 100%;
+}
+.password .card{
+    padding: 0;
+    margin-left: -20px;
+}
+.password form div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.password form div .a{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: -20px;
+}
+.password .container img{
+    margin: 0;
+}
+
+/* modal styling */
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* modal styling */
+.modal {
+    height: 300px;
+    overflow: scroll;
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* padding: 10px; */
+}
+.modal h1{
+    font-size: 22px;
+}
+.modal form{
+    margin-top: -10px;
+}
+
+.modal .header{
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.modal .close {
+    color: #1D62CA;
+    font-size: 17px;
+    margin-top: 7px;
+}
+.modal form{
+    padding: 10px;
+}
+.modal .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.modal button{
+    width: 95%;
+}
+
+.modal .button .a{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* styling the signup page */
+.signup .form{
+    height: 470px;
+}
+.signup .form form div{
+    margin-top: 10px;
+}
+.signup .container{
+    height: 17vh;
+}
+.signup .check{
+    width: 20px;
+    height: 20px;
+    margin-top: -7px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.box span{
+    margin-left: 10px;
+}
