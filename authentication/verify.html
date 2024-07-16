@@ -3,7 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Verify Account</title>
+    <title>verify Otp</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="verify" style="background: white;">
+      <section>
+        <nav class="navbar">
+          <a href="">
+            <img src="../assets/icons/backIcon.png" alt="" />
+            back
+          </a>
+        </nav>
+        <div class="verify-otp">
+          <div>
+            <h3>
+              A code has been sent to your  gmail at adeolawintech@gmail.com
+            </h3>
+
+            <form action="">
+              <label for="">Enter six-digit code</label>
+              <input type="text" class="otp" placeholder="xxx-xxx">
+
+              <p class="resendBtn" id="resendBtn" disabled>Resend OTP <span>(<span id="countdown">30</span>s)</span></p>
+            </form>
+          </div>
+          <button>Done</button>
+        </div>
+
+      </section>
+    </main>
+    <script src="../functions/countdown.js"></script>
+  </body>
 </html>

@@ -25,7 +25,7 @@ main{
 }
 .navbar {
     height: 7vh;
-    width: 100%;
+    /* width: 100%; */
     padding: 15px 5px;
     /* padding:0 5px; */
     display: flex;
@@ -208,5 +208,53 @@ label{
     margin-bottom: 10px;
 }
 .box span{
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+/* styling the otp page */
+
+.verify .verify-otp{
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    width: 90%;
+    text-align: center;
+}
+.verify .verify-otp button{
+    position: fixed;
+    margin: auto;
+    width: 95%;
+    bottom: 20px;
+    margin-left: 15px;
+}
+.verify .verify-otp form label{
+    margin-bottom: -15px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #979494;
+}
+.verify .verify-otp form{
+    display: grid;
+    place-items: center;
+    width: 90%;
+    margin: 10px auto;
+}
+.verify input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+    background: transparent;
+    margin: 20px auto;
+    width: 60%;
+    padding: 10;
+    font-size: 37px;
+    text-align: center;  /* Center the text */
+}
+.verify .verify-otp form span{
+    color: #285FFA;
+}
+.resendBtn{
+    font-size: 18px;
 }
